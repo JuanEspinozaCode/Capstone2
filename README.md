@@ -39,7 +39,7 @@ Open folder on Visual Studio Code and open the index file with live server on th
 
 ## Deployed Link
 
-* [See Live Site]()
+* [See Live Site](https://juanespinozacode.github.io/Capstone2/)
 
 ## Images
 
