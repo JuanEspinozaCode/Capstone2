@@ -50,6 +50,8 @@ function searchStateAndPark() {
 
   if (filteredParks.length > 1){
     document.getElementById("myTitle").innerHTML=message
+  } else if (filteredParks.length === 0){
+    document.getElementById("myTitle").innerHTML=message
   } else{
     document.getElementById("myTitle").innerHTML=message2
   }
