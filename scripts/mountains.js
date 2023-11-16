@@ -38,14 +38,18 @@ document.getElementById("mountains").innerHTML = `
 `;
 
 function mountainTemplate(mountain) {
-  let mySunrise = getSunsetForMountain(`${mountain.coords.lat},${mountain.coords.lng}`);
+//  getSunsetForMountain(`${mountain.coords.lng},${mountain.coords.lng}`)
+//   .then(data => {
+//     let mySunrise = data.results.sunrise
+//     console.log(mySunrise)});
 
  async function getSunsetForMountain(lat, lng) {
-    let response = await fetch(
-      `https://api.sunrise-sunset.org/json?lat=${lat}&lng=${lng}&date=today`
-    );
-    let data = await response.json();
-    return data;
+  // console.log(lat);
+  //   let response = await fetch(
+  //     `https://api.sunrisesunset.io/json?lat=${lat}&lng=${lng}}`
+  //   );
+  //   let data = await response.json();
+  //   return data;
   }
   return `
   <div class="card my-2" style="width: 18rem;">
@@ -56,7 +60,7 @@ function mountainTemplate(mountain) {
       <p class="card-text">${mountain.desc}</p>
       <p class="card-text"><strong>Effort: ${mountain.effort}</strong></p>
       <p class="card-text"><strong>lat: ${mountain.coords.lat} lng: ${mountain.coords.lng}</strong></p>     
-  </div>
+     </div>
   </div>
 
   `;
