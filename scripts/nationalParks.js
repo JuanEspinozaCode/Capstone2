@@ -5,7 +5,14 @@ function searchLocation() {
   
   let park=""
   let message = `<div class="d-flex justify-content-center"><h1 class="visitText">${filteredStates.length} National Parks to visit</h1></div>`;
-  document.getElementById("myTitle").innerHTML=message
+  let message2 = `<div class="d-flex justify-content-center"><h1 class="visitText">${filteredStates.length} National Park to visit</h1></div>`;
+
+  if (filteredStates.length > 1){
+    document.getElementById("myTitle").innerHTML=message
+  } else{
+    document.getElementById("myTitle").innerHTML=message2
+  }
+
   park += filteredStates.map(parkTemplate).join("");
   document.getElementById("myParks").innerHTML = park;
 }
@@ -39,7 +46,14 @@ function searchStateAndPark() {
 
   let park=""
   let message = `<div class="d-flex justify-content-center"><h1 class="visitText">${filteredParks.length} National Parks to visit</h1></div>`;
-  document.getElementById("myTitle").innerHTML=message
+  let message2 = `<div class="d-flex justify-content-center"><h1 class="visitText">${filteredParks.length} National Park to visit</h1></div>`;
+
+  if (filteredParks.length > 1){
+    document.getElementById("myTitle").innerHTML=message
+  } else{
+    document.getElementById("myTitle").innerHTML=message2
+  }
+
   park += filteredParks.map(parkTemplate).join("");
   document.getElementById("myParks").innerHTML = park;
 

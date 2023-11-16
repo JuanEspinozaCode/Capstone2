@@ -44,13 +44,16 @@ Open folder on Visual Studio Code and open the index file with live server on th
 ## Images
 
 ### Home
-![Home](images/home-snap.PNG)
+![Home](images/pageImages/home-snap.PNG)
 
 ### National Parks
-![National Parks](images/products-snap.PNG)
+![National Parks](images/pageImages/nationalparks-snap.PNG)
 
 ### Mountains
-![Mountains](images/checkout-snap.PNG)
+![Mountains](images/pageImages/mountains-snap.PNG)
+
+### Code
+![Mountains](images/pageImages/code-snap.PNG)
 
 ## Authors
 
