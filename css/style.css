@@ -39,8 +39,8 @@ body {
     /* border: 2px solid rgb(0, 0, 0); */
     border-radius: 12px;
     width: 400px; 
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0); */
 }
 
 .index-text h1{
@@ -118,8 +118,8 @@ body {
     /* border: 2px solid rgb(0, 0, 0); */
     border-radius: 12px;
     width: 400px; 
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0); */
     margin-top: 15px;
 
 }
