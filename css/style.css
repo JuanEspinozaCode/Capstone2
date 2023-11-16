@@ -1,0 +1,201 @@
+
+body {
+    margin: 0px;
+    padding: 0px; 
+}
+
+/* HOMEPAGE */
+.img-index{
+    background-image: url(/images/pageImages/homepage1.jpeg);
+    height: 600px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 90px;
+    border: 1px solid black;
+}
+
+.index-border{
+    padding-bottom: 16%;
+    display: flex;
+    justify-content: center;
+}
+
+.index-text{
+    background-color: rgba(0, 0, 0, 0.416);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: stretch;
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-radius: 12px;
+    width: 400px; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.index-text h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.btn-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.block-fill{
+    background-color: black;
+    padding: 1px;
+}
+
+.bottom-page{
+    margin-top: 30px;
+}
+
+/*NATIONAL PARKS PAGE */
+
+.searchParks{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.container-parks{
+    display: flex;
+    justify-content: center;
+}
+
+.img-parks{
+    background-image: url(/images/pageImages/parks.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.parks-border{
+    padding-bottom: 8%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.allParksBtn{
+    background-color: rgba(0, 0, 0, 0.35);
+    color: white;
+    margin-top: 50px;
+    width:260px;
+    border-radius: 10px; 
+    padding-bottom: 10px; 
+    /* border: 2px solid black; */
+}
+
+.visitText{
+    display: flex;
+    justify-content: center;
+}
+
+.park-text{
+    background-color: rgba(0, 0, 0, 0.306);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-radius: 12px;
+    width: 400px; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    margin-top: 15px;
+
+}
+
+/* DISPLAY PARKS */
+
+.display-parks{
+    display: flex;
+}
+
+/* MOUNTAINS PAGE */
+
+.mtLink{
+    text-decoration: none;
+    color: white;
+}
+
+.img-mount{
+    background-image: url(/images/pageImages/mountain.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.mount-border{
+    padding-bottom: 16%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* BACK TO TOP */
+
+.to-top{
+    background: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color:#ffffff;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+
+.to-top.active{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
