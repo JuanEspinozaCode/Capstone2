@@ -6,7 +6,7 @@ body {
 
 /* HOMEPAGE */
 .img-index{
-    background-image: url(/images/pageImages/homepagemountain.jpeg);
+    background-image: url('https://images.alphacoders.com/126/1261794.jpg');
     height: 600px;
     background-repeat: no-repeat;
     width: 100%;
@@ -78,7 +78,7 @@ body {
 }
 
 .img-parks{
-    background-image: url(/images/pageImages/parks.jpg);
+    background-image: url('https://i.redd.it/ftcvsua9hdy51.jpg');
     height: 600px;
     background-repeat: no-repeat;
     width: 100%;
@@ -138,7 +138,7 @@ body {
 }
 
 .img-mount{
-    background-image: url(/images/pageImages/mountain.jpg);
+    background-image: url('https://wallpapers.com/images/hd/hiking-2518-x-1390-background-0dy141klqe014w1b.jpg');
     height: 600px;
     background-repeat: no-repeat;
     width: 100%;
