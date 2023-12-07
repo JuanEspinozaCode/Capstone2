@@ -90,10 +90,11 @@ function showAllParks() {
 function parkTemplate(park) {
   return `
 <div class="card my-2" style="width: 18rem;">
-  <img src="${park.Image}" class="card-img-top" alt="...">
+  <img src="https://i.pinimg.com/736x/7d/87/c6/7d87c6565b20d63f1572de74e62bf33c.jpg" class="card-img-top" alt="...">
   <div class="card-body">
       <h5 class="card-title">${park.LocationName}</h5>
       <p class="card-text">${park.City}, ${park.State}</p>
+      <p class="card-text">${park.Address}</p>
       <a href="${park.Visit}" class="btn btn-primary">Visit Park</a>
   </div>
   </div>
